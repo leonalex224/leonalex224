@@ -44,8 +44,6 @@ button {
     transition: background-color 0.3s; /* Smooth color change when hovering */
 }
 
-button:hover {
-    background-color: #00008b; /* Darker blue when hovering over the button */
-}
+
 
 
