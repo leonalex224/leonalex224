@@ -11,17 +11,4 @@ p {
   color: "black"; 
 }
 
-<style>
-  ul {
-    font-size: 32px; 
-    line-height: 1.6; 
-  }
 
-  ul {
-    margin-left: 20px; 
-  }
-
-  li {
-    margin-bottom: 0.5em; 
-  }
-</style>
