@@ -29,8 +29,6 @@ p {
 }
 
 .section img {
-    max-width: 100%; /* Ensure images don't overflow the section */
-    height: auto;
     border-radius: 10px; /* Rounded corners for images */
 }
 
