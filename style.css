@@ -10,3 +10,18 @@ p {
   font-family: Arial, sans-serif; 
   color: "black"; 
 }
+
+<style>
+  p, ul {
+    font-size: 32px; /* Use the same font size as your paragraphs */
+    line-height: 1.6; /* Adjust for readability if needed */
+  }
+
+  ul {
+    margin-left: 20px; /* Indentation for bullet points */
+  }
+
+  li {
+    margin-bottom: 0.5em; /* Optional spacing between list items */
+  }
+</style>
