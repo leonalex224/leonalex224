@@ -1,5 +1,5 @@
 body {
-    background-color: #00BFFF; 
+    background-color: #191970; 
     margin: 0;
     font-family: Arial, sans-serif;
 }
@@ -13,13 +13,13 @@ h2 {
 
 p {
     font-size: 32px;
-    color: white;
+    color: black;
 }
 
 .section {
     margin: 20px;
     padding: 20px;
-    background-color: #191970; 
+    background-color: #00BFFF; 
     border-radius: 10px;
     color: white;
 }
