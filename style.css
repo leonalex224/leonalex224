@@ -1,18 +1,52 @@
 body {
-    background-color: #00BFFF;
+    background-color: #00BFFF; /* Sky blue background for the body */
+    font-family: Arial, sans-serif; /* Use Arial font for the page */
+    margin: 0;
+    padding: 0;
 }
 
 h2 {
-  font-size: 45px; 
-  font-family: Arial, sans-serif; 
-  color: "black"; 
+    font-size: 45px; /* Larger font size for headers */
+    font-family: Arial, sans-serif; /* Use Arial font for headers */
+    color: black; /* Black color for the text */
+    text-align: center; /* Center align all h2 titles */
 }
 
-
 p {
-  font-size: 32px; 
-  font-family: Arial, sans-serif; 
-  color: "black"; 
+    font-size: 32px; /* Larger font size for paragraphs */
+    font-family: Arial, sans-serif; /* Use Arial font for paragraphs */
+    color: black; /* Black color for text */
+    padding-left: 20px; /* Add padding to the left for better spacing */
+}
+
+.section {
+    background-color: #191970; /* Dark blue background for each section */
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px; /* Rounded corners for the sections */
+    color: white; /* White text inside the boxes */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
+}
+
+.section img {
+    max-width: 100%; /* Ensure images don't overflow the section */
+    height: auto;
+    border-radius: 10px; /* Rounded corners for images */
+}
+
+button {
+    background-color: #191970; /* Dark blue background for the button */
+    color: white; /* White text on the button */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s; /* Smooth color change when hovering */
+}
+
+button:hover {
+    background-color: #00008b; /* Darker blue when hovering over the button */
 }
 
 
