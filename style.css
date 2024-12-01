@@ -13,15 +13,15 @@ p {
 
 <style>
   p, ul {
-    font-size: 32px; /* Use the same font size as your paragraphs */
-    line-height: 1.6; /* Adjust for readability if needed */
+    font-size: 32px; 
+    line-height: 1.6; 
   }
 
   ul {
-    margin-left: 20px; /* Indentation for bullet points */
+    margin-left: 20px; 
   }
 
   li {
-    margin-bottom: 0.5em; /* Optional spacing between list items */
+    margin-bottom: 0.5em; 
   }
 </style>
