@@ -30,5 +30,21 @@ img {
     border-radius: 5px;
 }
 
+.button-container {
+  position: absolute;
+    bottom; 20px;
+    width: 15%;
+    text-allign: center;
+}
+
+.portfolio-button {
+  color: black; 
+  font-size: 32px; 
+  text-decoration: none; 
+  padding: 10px 20px; 
+  background-color: #00BFFF; 
+  border: none; 
+  border-radius: 10px;
+  cursor: pointer;
 
 
