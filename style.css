@@ -24,6 +24,11 @@ a {
     margin: 10px;  
 }
 
+a:hover {
+    color: #00FF00; 
+    text-decoration: underline; 
+}
+
 .section {
     margin: 20px;
     padding: 20px;
