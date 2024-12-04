@@ -16,6 +16,14 @@ p {
     color: black;
 }
 
+a { 
+    font-size: 32px;  
+    color: #FF0000;    
+    text-decoration: none;  
+    display: inline-block;  
+    margin: 10px;  
+}
+
 .section {
     margin: 20px;
     padding: 20px;
@@ -35,12 +43,3 @@ img {
     margin: 0 auto; 
     justify-content: center;
 }
-
-a { 
-    font-size: 32px;  
-    color: #FF0000;    
-    text-decoration: none;  
-    display: inline-block;  
-    margin: 10px;  
-}
-
