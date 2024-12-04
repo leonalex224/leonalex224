@@ -16,7 +16,7 @@ p {
     color: black;
 }
 
-a { 
+body a { 
     font-size: 32px;  
     color: #FF0000;    
     text-decoration: none;  
@@ -24,7 +24,7 @@ a {
     margin: 10px;  
 }
 
-a:hover {
+body a:hover {
     color: #00FF00; 
     text-decoration: underline; 
 }
