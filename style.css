@@ -31,7 +31,7 @@ h2.section-title {
 .skills-paragraph,
 .dev-paragraph,
 .portfolio-paragraph,
-.cc-paragraph"{
+.cc-paragraph" {
     font-size: 2rem; 
     color: black;
     line-height: 1.6;
@@ -42,7 +42,7 @@ h2.section-title {
 .intro-paragraph
 .dev-paragraph,
 .portfolio-paragraph,
-.cc-paragraph"{
+.cc-paragraph" {
     margin-left: 0; 
 }
 
