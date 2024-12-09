@@ -34,7 +34,7 @@
 
         <div class="button-container">
             <a href="portfolio.html" target="_blank" class="styled-link">
-                <button class="styled-button">Check out my portfolio</button>
+                <button id="portfolioButton" class="styled-button">Check out my portfolio</button>
             </a>
         </div> 
     </div>
@@ -95,6 +95,10 @@
 
         document.getElementById("paragraph9").addEventListener("click", function() {
             speakText("paragraph9");
+        });
+
+      document.getElementById("portfolioButton").addEventListener("click", function() {
+            speakText("portfolioButton");
         });
     </script>
   
