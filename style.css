@@ -81,25 +81,24 @@ h2.section-title {
     width: 100%;
 }
 
-.styled-link {
-    text-decoration: none;
+body a {
+    font-size: 2rem;    
+    color: black;      
+    text-decoration: none; 
+    display: inline-block;
+    text-align: center;  
+    margin: 10px;
+    width: 100%;  
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+body a:hover {
+    color: #FF0000;      
+    text-decoration: underline; 
 }
 
 .centered-link-container {
-    text-align: center;         
-    margin-bottom: 20px; 
-    width: 100%; 
-}
-
-.centered-link-container a {
-    text-align: center;
-    font-size: 2rem;  
-    color: #FF0000;    
-    text-decoration: none;
-    transition: color 0.3s ease; 
-}
-
-.centered-link-container a:hover {
-    color: #00BFFF; 
-    text-decoration: underline;
+    text-align: center;  
+    margin-bottom: 20px;
+    width: 100%;
 }
