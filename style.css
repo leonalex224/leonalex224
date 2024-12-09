@@ -48,9 +48,10 @@ h2.section-title {
     border-radius: 10px;
     width: 100%;  
     max-width: 300px;  
-    display: block;
+    display: flex;
     margin: 0 auto; 
     justify-content: center;
+    align-items: center;
 }
 
 .section {
