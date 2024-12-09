@@ -18,7 +18,8 @@ h2.section-title {
 
 .intro-paragraph,
 .skills-paragraph,
-.dev-paragraph {
+.dev-paragraph,
+.portfolio-paragraph {
     font-size: 2rem; 
     color: black;
     line-height: 1.6;
