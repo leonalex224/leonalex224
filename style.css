@@ -46,9 +46,10 @@ h2.section-title {
     border: 2px solid black; 
     border-radius: 10px;
     width: 100%;  
-    max-width: 300px;  
+    max-width: 300px;   
     display: block;
-    margin: 0 auto;  
+    margin: 0 auto;     
+    object-fit: contain;
 }
 
 .section {
