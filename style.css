@@ -35,6 +35,9 @@ h2.section-title {
     margin-left: 45px;
 }
 
+.portfolio-paragraph {
+    margin-left: 0; 
+}
 .about-image,
 .software-dev-image {
     border: 2px solid black; 
