@@ -39,16 +39,16 @@ h2.section-title {
     margin-right: 20px;
 }
 
-.intro-paragraph {
+.intro-paragraph
+.dev-paragraph,
+.portfolio-paragraph,
+.cc-paragraph"{
     margin-left: 0; 
 }
 
 .skills-paragraph {
     margin-left: 45px;
 }
-
-.portfolio-paragraph {
-    margin-left: 0; 
     
 }
 .about-image,
