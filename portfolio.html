@@ -9,32 +9,61 @@
     
 <body>
   <div class="container">
-    <h2 class="section-title">Portfolio 📂</h2>
+    <h2 class="section-title" id="title1">Portfolio 📂</h2>
     
     <div class="section">
-      <p class="portfolio-paragraph">Here are a few projects I've worked on to learn different languages and test my abilities... check out <strong>my work</strong>!</p>
+      <p class="portfolio-paragraph" id="paragraph1">Here are a few projects I've worked on to learn different languages and test my abilities... check out <strong>my work</strong>!</p>
     </div>
     
     <div class="section">
-      <p class="portfolio-paragraph"><strong>Alex's Cookie Company</strong>🍪 :</p>
-      <p class="portfolio-paragraph">As I did with python, I struggled to understand the basics of HTML to begin with. Not only was it difficult to take all the new information in, but this was the first Markup Language! After getting the hang of a some of the basics, here is a demo of what I made...</p>
-      
-    <br>
-        
-    <div class="video-container">
-        <video width="80%" controls>
-            <source src="ccDemo.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
-    </div>
+      <p class="portfolio-paragraph" id="paragraph2"><strong>Alex's Cookie Company</strong>🍪 :</p>
+      <p class="portfolio-paragraph" id="paragraph3">As I did with python, I struggled to understand the basics of HTML to begin with. Not only was it difficult to take all the new information in, but this was the first Markup Language! After getting the hang of some of the basics, here is a demo of what I made...</p>     
+      <br>
+      <div class="video-container">
+          <video width="80%" controls>
+              <source src="ccDemo.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+          </video>
+      </div>
 
-    <br> 
+      <br> 
 
-    <div class="centered-link-container">
-        <a href="projectDetails.html">Click here for more details on these projects!</a>
+      <div class="centered-link-container">
+          <a href="projectDetails.html" id="Click here for more details on these projects!">Click here for more details on these projects!</a>
+      </div>
     </div>
   </div>
-        
-    
+
+  <script>
+    function speakText(elementId) {
+        const text = document.getElementById(elementId).innerText; 
+        const speech = new SpeechSynthesisUtterance(text); 
+        speech.pitch = 1; 
+        speech.rate = 1; 
+        speech.volume = 1;
+        window.speechSynthesis.speak(speech); 
+    }
+
+    document.getElementById("title1").addEventListener("click", function() {
+        speakText("title1");
+    });
+
+    document.getElementById("paragraph1").addEventListener("click", function() {
+        speakText("paragraph1");
+    });
+
+    document.getElementById("paragraph2").addEventListener("click", function() {
+        speakText("paragraph2");
+    });
+
+    document.getElementById("paragraph3").addEventListener("click", function() {
+        speakText("paragraph3");
+    });
+
+    document.getElementById("projectLink").addEventListener("click", function() {
+        speakText("projectLink");
+    });
+  </script>
+  
 </body>
 </html>
