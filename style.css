@@ -84,3 +84,21 @@ h2.section-title {
 .styled-link {
     text-decoration: none;
 }
+
+.centered-link-container {
+    text-align: center;  
+    width: 100%;        
+    margin-bottom: 20px; 
+}
+
+.centered-link-container a {
+    font-size: 2rem;  
+    color: #FF0000;    
+    text-decoration: none;
+    transition: color 0.3s ease; 
+}
+
+.centered-link-container a:hover {
+    color: #00BFFF; 
+    text-decoration: underline;
+}
