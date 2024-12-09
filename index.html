@@ -9,34 +9,94 @@
   
 <body>
   <div class="container">
-        <h2 class="section-title">About Me 👋</h2>
+        <h2 class="section-title" id="title1">About Me 👋</h2>
         <div class="section">
             <img class="about-image" src="https://mir-s3-cdn-cf.behance.net/project_modules/2800_opt_1/35af6a41332353.57a1ce913e889.jpg" alt="Image of myself for About Me section" />
-            <p class="intro-paragraph">Hi, my name is <strong>Alexander Conti</strong>!</p>
-            <p class="intro-paragraph">I am currently in my second year of a <strong>BSc (Hons) Computer Science</strong> degree with a specialization in <strong>Software Engineering</strong>. Before university, I studied Computer Science in GCSEs and at College. I have always been passionate about the subject as a whole, which is why I decided to continue my education and expand my knowledge in this field!</p>
+            <p class="intro-paragraph" id="paragraph1">Hi, my name is <strong>Alexander Conti</strong>!</p>
+            <p class="intro-paragraph" id="paragraph2">I am currently in my second year of a <strong>BSc (Hons) Computer Science</strong> degree with a specialization in <strong>Software Engineering</strong>. Before university, I studied Computer Science in GCSEs and at College. I have always been passionate about the subject as a whole, which is why I decided to continue my education and expand my knowledge in this field!</p>
         </div>
     
-        <h2 class="section-title">Skills & Tools 💻</h2>
+        <h2 class="section-title" id="title2">Skills & Tools 💻</h2>
         <div class="section">
-            <p class="skills-paragraph"><strong>Languages:</strong> Python, Java, SQL, HTML, CSS</p>
-            <p class="skills-paragraph"><strong>Tools:</strong> Logisim (Binary Circuits), IDLE, BlueJ, Oracle SQL Developer</p>
-            <p class="skills-paragraph"><strong>Practices:</strong></p>
-            <p class="skills-paragraph">- 🔄 Understanding of the software development lifecycle (SDLC)</p>
-            <p class="skills-paragraph">- 🛠️ Writing robust and efficient code</p>
-            <p class="skills-paragraph">- 🔍 Testing code to ensure it meets requirements and performs its role</p>
+            <p class="skills-paragraph" id="paragraph3"><strong>Languages:</strong> Python, Java, SQL, HTML, CSS</p>
+            <p class="skills-paragraph" id="paragraph4"><strong>Tools:</strong> Logisim (Binary Circuits), IDLE, BlueJ, Oracle SQL Developer</p>
+            <p class="skills-paragraph" id="paragraph5"><strong>Practices:</strong></p>
+            <p class="skills-paragraph" id="paragraph6">- 🔄 Understanding of the software development lifecycle (SDLC)</p>
+            <p class="skills-paragraph" id="paragraph7">- 🛠️ Writing robust and efficient code</p>
+            <p class="skills-paragraph" id="paragraph8">- 🔍 Testing code to ensure it meets requirements and performs its role</p>
         </div>
     
-        <h2 class="section-title">Software Development ⚙️</h2>
+        <h2 class="section-title" id="title3">Software Development ⚙️</h2>
         <div class="section">
             <img class="software-dev-image" src="https://t-hub.mx/storage/blog/QopQLVRlmihNPF4aWnSPKuCvV2ja4HuXTCsaM7Cw.jpeg" alt="Software Development Image"/>
-            <p class="dev-paragraph">Software development is a dynamic field that combines creativity and technical skills to create applications that solve real-world problems. My passion for programming began in my early teens when I started learning Python for GCSEs. At the beginning, I really struggled learning the basics, but my teacher saw something in me which helped me keep pushing. Over time, I got better and better and since then, I've developed a strong interest in many other languages.</p>
+            <p class="dev-paragraph" id="paragraph9">Software development is a dynamic field that combines creativity and technical skills to create applications that solve real-world problems. My passion for programming began in my early teens when I started learning Python for GCSEs. At the beginning, I really struggled learning the basics, but my teacher saw something in me which helped me keep pushing. Over time, I got better and better and since then, I've developed a strong interest in many other languages.</p>
         </div>
 
         <div class="button-container">
             <a href="portfolio.html" target="_blank" class="styled-link">
                 <button class="styled-button">Check out my portfolio</button>
             </a>
-       </div> 
-  </div>
+        </div> 
+    </div>
+
+    <script>
+        function speakText(elementId) {
+            const text = document.getElementById(elementId).innerText; 
+            const speech = new SpeechSynthesisUtterance(text); 
+            speech.pitch = 1; 
+            speech.rate = 1; 
+            speech.volume = 1;
+            window.speechSynthesis.speak(speech); 
+        }
+
+        document.getElementById("title1").addEventListener("click", function() {
+            speakText("title1");
+        });
+
+        document.getElementById("paragraph1").addEventListener("click", function() {
+            speakText("paragraph1");
+        });
+
+        document.getElementById("paragraph2").addEventListener("click", function() {
+            speakText("paragraph2");
+        });
+
+        document.getElementById("title2").addEventListener("click", function() {
+            speakText("title2");
+        });
+
+        document.getElementById("paragraph3").addEventListener("click", function() {
+            speakText("paragraph3");
+        });
+
+        document.getElementById("paragraph4").addEventListener("click", function() {
+            speakText("paragraph4");
+        });
+
+        document.getElementById("paragraph5").addEventListener("click", function() {
+            speakText("paragraph5");
+        });
+
+        document.getElementById("paragraph6").addEventListener("click", function() {
+            speakText("paragraph6");
+        });
+
+        document.getElementById("paragraph7").addEventListener("click", function() {
+            speakText("paragraph7");
+        });
+
+        document.getElementById("paragraph8").addEventListener("click", function() {
+            speakText("paragraph8");
+        });
+
+        document.getElementById("title3").addEventListener("click", function() {
+            speakText("title3");
+        });
+
+        document.getElementById("paragraph9").addEventListener("click", function() {
+            speakText("paragraph9");
+        });
+    </script>
+  
 </body>
 </html>
