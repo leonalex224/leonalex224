@@ -3,32 +3,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project Details Page </title>
+    <title>Project Details Page</title>
     <link rel="stylesheet" href="style.css">
 </head>
     
 <body>
   <div class="container">
-    <h2 class="section-title">Project Details 📂</h2>
+    <h2 class="section-title" id="title1">Project Details 📂</h2>
+    
     <div class="section">
-        <p class="cc-paragraph"><strong>Alex's Cookie Company</strong>🍪 : </p>
-        <p class="cc-paragraph">"Alex's Cookie Company" was one of the first projects I created to learn and test basic HTML. It’s a simple, static website featuring:</p>
-        <p class="ccIndent-paragraph">- A home page with a custom logo and introductory paragraph.</p>
-        <p class="ccIndent-paragraph">- A recipe page that uses lists to display ingredients and step-by-step instructions for making cookies.</p>
-        <p class="ccIndent-paragraph">- An order form page including a menu, where users can submit cookie orders.</p>
-        <p class="cc-paragraph"> This project was a foundational exercise in web development, teaching me how to structure content, create links between pages, and build simple forms using only HTML. By comparing this early project to my current GitHub profile page - built with a combination of HTML and CSS - you can see the progression of my skills:</p>
-        <p class="ccIndent-paragraph">- Enhanced design and layout using CSS for styling and responsive design.</p>
-        <p class="ccIndent-paragraph">- More polished, professional aesthetics with modern web techniques.</p>
-        <p class="ccIndent-paragraph">- A deeper understanding of structuring content for clarity and usability.</p>
-        <p class="cc-paragraph">"Alex's Cookie Company" represents my starting point in web development, while my GitHub profile reflects my growth and ability to create more sophisticated, visually appealing, and user-friendly projects.</p>
+        <p class="cc-paragraph" id="paragraph1"><strong>Alex's Cookie Company</strong>🍪 : </p>
+        <p class="cc-paragraph" id="paragraph2">"Alex's Cookie Company" was one of the first projects I created to learn and test basic HTML. It’s a simple, static website featuring:</p>
+        <p class="ccIndent-paragraph" id="paragraph3">- A home page with a custom logo and introductory paragraph.</p>
+        <p class="ccIndent-paragraph" id="paragraph4">- A recipe page that uses lists to display ingredients and step-by-step instructions for making cookies.</p>
+        <p class="ccIndent-paragraph" id="paragraph5">- An order form page including a menu, where users can submit cookie orders.</p>
+        <p class="cc-paragraph" id="paragraph6">This project was a foundational exercise in web development, teaching me how to structure content, create links between pages, and build simple forms using only HTML. By comparing this early project to my current GitHub profile page - built with a combination of HTML and CSS - you can see the progression of my skills:</p>
+        <p class="ccIndent-paragraph" id="paragraph7">- Enhanced design and layout using CSS for styling and responsive design.</p>
+        <p class="ccIndent-paragraph" id="paragraph8">- More polished, professional aesthetics with modern web techniques.</p>
+        <p class="ccIndent-paragraph" id="paragraph9">- A deeper understanding of structuring content for clarity and usability.</p>
+        <p class="cc-paragraph" id="paragraph10">"Alex's Cookie Company" represents my starting point in web development, while my GitHub profile reflects my growth and ability to create more sophisticated, visually appealing, and user-friendly projects.</p>
         
         <div class="centered-link-container">
-            <a href="portfolio.html">Back to Portfolio</a>
+            <a href="portfolio.html" id="link1">Back to Portfolio</a>
             <br>
-            <a href="index.html">Back to About Me</a>
+            <a href="index.html" id="link2">Back to About Me</a>
         </div>   
     </div>
-      
   </div> 
+
+  <script>
+    function speakText(elementId) {
+        const text = document.getElementById(elementId).innerText; 
+        const speech = new SpeechSynthesisUtterance(text); 
+        speech.pitch = 1; 
+        speech.rate = 1; 
+        speech.volume = 1;
+        window.speechSynthesis.speak(speech); 
+    }
+
+    document.getElementById("title1").addEventListener("click", function() {
+        speakText("title1");
+    });
+
+    document.getElementById("paragraph1").addEventListener("click", function() {
+        speakText("paragraph1");
+    });
+
+    document.getElementById("paragraph2").addEventListener("click", function() {
+        speakText("paragraph2");
+    });
+
+    document.getElementById("paragraph3").addEventListener("click", function() {
+        speakText("paragraph3");
+    });
+
+    document.getElementById("paragraph4").addEventListener("click", function() {
+        speakText("paragraph4");
+    });
+
+    document.getElementById("paragraph5").addEventListener("click", function() {
+        speakText("paragraph5");
+    });
+
+    document.getElementById("paragraph6").addEventListener("click", function() {
+        speakText("paragraph6");
+    });
+
+    document.getElementById("paragraph7").addEventListener("click", function() {
+        speakText("paragraph7");
+    });
+
+    document.getElementById("paragraph8").addEventListener("click", function() {
+        speakText("paragraph8");
+    });
+
+    document.getElementById("paragraph9").addEventListener("click", function() {
+        speakText("paragraph9");
+    });
+
+    document.getElementById("paragraph10").addEventListener("click", function() {
+        speakText("paragraph10");
+    });
+
+    // Add event listeners for text-to-speech functionality when hovering over links
+    document.getElementById("link1").addEventListener("mouseover", function() {
+        speakText("link1");
+    });
+
+    document.getElementById("link2").addEventListener("mouseover", function() {
+        speakText("link2");
+    });
+  </script>
+    
 </body>
 </html>
