@@ -92,6 +92,7 @@ h2.section-title {
 }
 
 .centered-link-container a {
+    text-align: center;
     font-size: 2rem;  
     color: #FF0000;    
     text-decoration: none;
