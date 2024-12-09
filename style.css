@@ -104,11 +104,11 @@ body a:hover {
 }
 
 video container { 
-    text-aligh: center;
+    text-align: center;
     margin: 0 auto;
     width: 100%;
     display: flex;
-    justify-content: center
+    justify-content: center;
     align-items: center;
 }
 
