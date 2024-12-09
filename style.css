@@ -112,6 +112,8 @@ video container {
 }
 
 video { 
+    border: 2px solid black; 
+    border-radius: 10px;
     max-width: 100%;
     width: 80%;
     display: block;
