@@ -9,6 +9,17 @@ body {
     padding: 20px;
 }
 
+.section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #00BFFF;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
 h2.section-title {
     font-size: 3rem;  
     color: white;
@@ -37,6 +48,7 @@ h2.section-title {
 
 .portfolio-paragraph {
     margin-left: 0; 
+    
 }
 .about-image,
 .software-dev-image {
@@ -62,17 +74,6 @@ h2.section-title {
 .styled-button:hover {
     background-color: #FF0000;
     color: white;
-}
-
-.section {
-    margin: 20px;
-    padding: 20px;
-    background-color: #00BFFF;
-    border-radius: 10px;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
 }
 
 .button-container {
@@ -101,3 +102,17 @@ body a:hover {
     margin-bottom: 20px;
     width: 100%;
 }
+
+video container { 
+    text-aligh: center;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: center
+    align-items: center;
+}
+
+video { 
+    max-width: 100%;
+    width: 80%;
+)
