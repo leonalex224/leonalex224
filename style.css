@@ -83,7 +83,7 @@ h2.section-title {
 
 body a {
     font-size: 2rem;    
-    color: black;      
+    color: #FF0000;
     text-decoration: none; 
     display: inline-block;
     text-align: center;  
@@ -92,8 +92,7 @@ body a {
     transition: color 0.3s ease, text-decoration 0.3s ease;
 }
 
-body a:hover {
-    color: #FF0000;      
+body a:hover {      
     text-decoration: underline; 
 }
 
